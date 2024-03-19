@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="Icon" href="./Assets/logo.png" >
+    <link rel="stylesheet" href="Spotify.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+<!--Sidebar-->
+        <div class="sidebar">
+    <!--Navigation bar in sidebar-->
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#" >Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#"> Search </a>
+                </div>
+            </div>
+    <!--Library-->
+            <div class="library ">
+        <!--Options-->
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./Assets/library_icon.png" alt="lib">
+                        <a href="#">Library</a>
+                    </div>
+                    <div class="icons" >
+                        <div class="plus-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="arrow-icon">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+        <!--Categories-->
+                <div class="categories">
+                    <span class="btn">
+                        <button class="btn-icon">Playlists</button>
+                    </span>
+                    <span class="btn">
+                        <button class="btn-icon">Artists</button>
+                    </span>
+                    <span class="btn">
+                        <button class="btn-icon">Albums</button>
+                    </span>
+                </div>
+        <!--Categories-Content-->
+                <div class="categories-content">
+            <!--Categories navigation -->
+                    <div class="categories-nav">
+                        <div class="categories-search nav-option">
+                            <i class="fa-solid fa-magnifying-glass "></i>
+                        </div>
+                        <div class="categories-recents nav-option">
+                            <a href="#">Recents</a>
+                            <i class="fa-solid fa-table-cells-large"></i>
+                        </div>
+                    </div>
+            <!--Content Cards-->
+                    <div class="categories-cards">
+                        <!-- Playlist-->
+                        <div class="card card-playlist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Likedsongs.png" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Likes Songs </h5>
+                                <p>
+                                    <i class="fa-solid fa-thumbtack fa-rotate-by fa-lg" style="color: #1db954; --fa-rotate-angle: 45deg;"></i>
+                                    &nbsp;&nbsp; Playlist <b>·</b> Crypx
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Musicophile.png" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play play-button-icon" style="color: #000000;"></i>
+                                </div>
+                                <h5>🄼🅄🅂🄸🄲🄾🄿🄷🄸🄻🄴</h5>
+                                <p>
+                                    <i class="fa-solid fa-thumbtack fa-rotate-by fa-lg" style="color: #1db954; --fa-rotate-angle: 45deg;"></i>
+                                    &nbsp;&nbsp; Playlist <b>·</b> Crypx
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Avtika.png" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>αντίκα</h5>
+                                <p>Playlist <b>·</b> Crypx</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Deep%20Sleeping.png" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Sleep Music for Deep Sleeping</h5>
+                                <p>Playlist <b>·</b> Soothing Oasis</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Astrophile.png" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Astrophile</h5>
+                                <p>Playlist <b>·</b> Crypx</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Hi%20Nanna.png" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Hi Nanna</h5>
+                                <p>Playlist <b>·</b> Crypx</p>
+                            </div>
+                        </div>
+                        <!-- Artist-->
+                        <div class="card card-artist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Anuvjain.jpeg" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Anuv Jain</h5>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <div class="card card-artist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/thaman.jpeg" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Thaman S</h5>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <div class="card card-artist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/alanwalker.jpeg" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Alan Walker</h5>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <div class="card card-artist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Hi%20Nanna.png" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Hesham Abdul Wahab</h5>
+                                <p>Artist</p>
+                            </div>
+                        </div><div class="card card-artist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Anirudh.jpeg" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Anirudh</h5>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <div class="card card-artist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/hans.jpeg" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Hans Zimmer</h5>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <div class="card card-artist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Weekend.jpeg" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Weekend</h5>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <div class="card card-artist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/maroon.jpeg" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Maroon 5</h5>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <div class="card card-artist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Marshmello.jpeg" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Marshmello</h5>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <!--Album-->
+                        <div class="card card-album card-playlist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Interstellar.png" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Interstellar (Original Motion
+                                    Picture Soundtrack)
+                                    [Expanded Edition]</h5>
+                                <p>Album · Hans Zimmer</p>
+                            </div>
+                        </div>
+                        <div class="card card-album card-playlist">
+                            <div class="card-content categories-card-content">
+                                <img src="./Assets/Saved.png" alt="">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Your Episodes</h5>
+                                <p>Saved & download</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--Main content-->
+        <div class="main-content">
+    <!--Sticky Header-->
+            <div class="sticky-bar">
+        <!--Header for navigation-->
+                <div class="sticky-nav">
+                    <div class="nav-icons">
+                        <button class="nav-icon">
+                            <img src="./Assets/backward_icon.png" alt="backward icon">
+                        </button>
+                        <button class="nav-icon">
+                            <img src="./Assets/forward_icon.png" alt="backward icon">
+                        </button>
+                    </div>
+                    <div class="nav-buttons">
+                        <button class="nav-button a">
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                            Install app
+                        </button>
+                        <button class="nav-button b">
+                            <i class="fa-solid fa-bell"></i>
+                        </button>
+                        <button class="nav-button c">
+                            <img src="./Assets/Profilepic.png" alt="profile pic">
+                        </button>
+                    </div>
+                </div>
+        <!--Header for categories-->
+                <div class="sticky-categories">
+                    <span class="sticky-btn">
+                        <button class="btn-icon">All</button>
+                    </span>
+                    <span class="sticky-btn">
+                        <button class="btn-icon">Music</button>
+                    </span>
+                    <span class="sticky-btn">
+                        <button class="btn-icon">Podcasts</button>
+                    </span>
+                </div>
+            </div>
+    <!--Home-->
+            <div class="main-home">
+        <!--Rectangle cards-->
+                <div class="rectangle-cards">
+                    <div class="rect-card">
+                        <img src="./Assets/thaman.jpeg" alt="">
+                        <h5>Thaman S</h5>
+                        <div class="play-button">
+                            <i class="fa-solid fa-play" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                    <div class="rect-card">
+                        <img src="./Assets/Interstellar.png" alt="">
+                        <h5>Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]</h5>
+                        <div class="play-button">
+                            <i class="fa-solid fa-play" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                    <div class="rect-card">
+                        <img src="./Assets/Musicophile.png" alt="">
+                        <h5>🄼🅄🅂🄸🄲🄾🄿🄷🄸🄻🄴</h5>
+                        <div class="play-button">
+                            <i class="fa-solid fa-play" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                    <div class="rect-card">
+                        <img src="./Assets/Avtika.png" alt="">
+                        <h5>αντίκα</h5>
+                        <div class="play-button">
+                            <i class="fa-solid fa-play" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                    <div class="rect-card">
+                        <img src="./Assets/Deep%20Sleeping.png" alt="">
+                        <h5>Sleep Music for Deep Sleeping</h5>
+                        <div class="play-button">
+                            <i class="fa-solid fa-play" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                    <div class="rect-card">
+                        <img src="./Assets/Astrophile.png" alt="Astrophile">
+                        <h5>Astrophile</h5>
+                        <div class="play-button">
+                            <i class="fa-solid fa-play" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                    <div class="rect-card">
+                        <img src="./Assets/dune2.jpeg" alt="Dune2">
+                        <h5>Dune: Part Two (Original Motion Picture Soundtrack)</h5>
+                        <div class="play-button">
+                            <i class="fa-solid fa-play" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                    <div class="rect-card">
+                        <img src="./Assets/Likedsongs.png" alt="Liked songs">
+                        <h5>Likes Songs</h5>
+                        <div class="play-button">
+                            <i class="fa-solid fa-play" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+        <!--Made For Crypx-->
+                <div class="home-content MadeFor">
+                    <div class="home-title">
+                        <h2>Made for crypx</h2>
+                        <h5>Show all</h5>
+                    </div>
+                    <div class="home-cards">
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/DM1.png" alt="Daily Mix 1">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Daily Mix 1</h5>
+                                <p>Avery's Ambient and Soothing Oasis</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/DM2.png" alt="Daily Mix 2">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Daily Mix 2</h5>
+                                <p>Devi Sri Prasad, Vijai Bulganin, Anand and more</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/DM3.png" alt="Daily Mix 3">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Daily Mix 3</h5>
+                                <p>A.R. Rahman, Anirudh Ravichander, Vivek - Mervin and more</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/DM4.png" alt="Daily Mix 4">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Daily Mix 4</h5>
+                                <p>Hesham Abdul Wahab, Aavani Malhar, Govind Vasantha and more</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/DM5.png" alt="Daily Mix 5">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Daily Mix 5</h5>
+                                <p>Thaman S, Yuvan Shankar Raja, G. V. Prakash and more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--Jump back in-->
+                <div class="home-content JumpBack">
+                    <div class="home-title">
+                        <h2>Jump back in</h2>
+                        <h5>Show all</h5>
+                    </div>
+                    <div class="home-cards">
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/JB1.png" alt="Jump back 1">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Shyam Singha Roy</h5>
+                                <p>By Siddu</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/JB2.png" alt="Jump back 2">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Dune: Part One (Complete Motion Picture Soundtrack)</h5>
+                                <p>Eric Lowery</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/JB3.png" alt="Jump back 3">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Falaknuma Das (Original Motion Picture Soundtrack)</h5>
+                                <p>Vivek Sagar</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/JB4.png" alt="Jump back 4">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Mirapakay</h5>
+                                <p>Thaman S</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/JB5.png" alt="Jump back 5">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Thoofan</h5>
+                                <p>Chirantan Bhatt • Meet Bros Anjjan • Anand Raj Anand</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--Recently Played-->
+                <div class="home-content RecentlyPlayed">
+                    <div class="home-title">
+                        <h2>Recently Played</h2>
+                        <h5>Show all</h5>
+                    </div>
+                    <div class="home-cards">
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/RP1.png" alt="Recently Played 1">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Agnyaathavaasi</h5>
+                                <p>Anirudh Ravichander</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/dune2.jpeg"  alt="Recently Played 2">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Dune: Part Two (Original Motion Picture Soundtrack)</h5>
+                                <p>Hans Zimmer</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/Dil%20aatma.png"  alt="Recently Played 3">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Dil aatma</h5>
+                                <p>By Wasteuuu</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/Avtika.png"  alt="Recently Played 4">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>αντίκα</h5>
+                                <p>By Crypx</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/JB5.png" alt="Recently Played 5">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Astrophile</h5>
+                                <p>By Crypx</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--Throwback-->
+                <div class="home-content Throwback">
+                    <div class="home-title">
+                        <h2>Throw Back</h2>
+                        <h5>Show all</h5>
+                    </div>
+                    <div class="home-cards">
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/TB1.png" alt="Throwback 1">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>00s Love Songs Telugu</h5>
+                                <p>What's a better combination than Nostalgia and Love? The best of both in this playlist! Cover: Bommarillu</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/TB2.png"  alt="Throwback 2">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>All Out 00's Telugu</h5>
+                                <p>Best of Telugu songs from the 2000's! Cover: Pawan Kalyan</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/TB3.png"  alt="Throwback 3">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>0O's Mass Paatalu</h5>
+                                <p>Telugu 2000's Massss! Cover: Shankardada MBBS</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/TB4.png"  alt="Throwback 4">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>All Out 10s Telugu</h5>
+                                <p>Best of 2010s from Tollywood Cover: Arjun Reddy</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/TB5.png" alt="Throwback 5">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>All Out 00's Hindi</h5>
+                                <p>Bollywood songs that ruled hearts in the Y2K decade. Cover - Om Shanti Om</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--Episodes For You-->
+                <div class="home-content Episodes">
+                    <div class="home-title">
+                        <h2>Episodes for you</h2>
+                        <h5>Show all</h5>
+                    </div>
+                    <div class="home-cards">
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/EP1.png" alt="Episodes 1">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>BOYS</h5>
+                                <p>Aug 2020 <b>·</b> 4 min</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/EP2.png"  alt="Episodes 2">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Mahabharatam in Telugu - Volume 01</h5>
+                                <p>Sept 2023 <b>·</b> 116 min</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/EP3.png"  alt="Episodes 3">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Hasyam (comedy)</h5>
+                                <p>7 Mar <b>·</b> 64 min</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/EP4.png"  alt="Episodes 4">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Garikapati Gyananidhi (Telugu)</h5>
+                                <p>Aug 2023 <b>·</b> 21 min</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/EP5.png" alt="Episodes 5">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Episode 2: Go With The Flow</h5>
+                                <p>Jul 2023 <b>·</b> 19 min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--Based on your recent listening-->
+                <div class="home-content RecentListening">
+                    <div class="home-title">
+                        <h2>Based on your recent listening</h2>
+                        <h5>Show all</h5>
+                    </div>
+                    <div class="home-cards">
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/RL1.png" alt="Recent Listening 1">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Hot Hits Malaya am</h5>
+                                <p>Catch the hottest Malayalam tracks here! Cover: Falimy</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/RL2.png"  alt="Recent Listening 2">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Trending Now Malayalam</h5>
+                                <p>Every song that's Trending NOW from Mollywood! Cover: Bramayugam</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/RL3.png"  alt="Recent Listening 3">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Top Malayalam Tracks of 2023</h5>
+                                <p>Songs that you've listened the most this year! Cover: Romancham #SpotifyWrapped</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/RL4.png"  alt="Recent Listening 4">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Top Malayalam Artists of 2023</h5>
+                                <p>Most loved Artists of 2023! Cover: Dabzee #Spotify Wrapped</p>
+                            </div>
+                        </div>
+                        <div class="card card-playlist">
+                            <div class="card-content home-card-content">
+                                <img src="./Assets/RL5.png" alt="Recent Listening 5">
+                                <div class="play-button">
+                                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                                </div>
+                                <h5>Latest Dance Tamil</h5>
+                                <p>Dance Machi Dance Cover : Jigarthanda DoubleX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--Footer-->
+                <div class="footer">
+                    <div class="footer-content">
+                        <div class="footer-top-sec">
+                            <div class="Company grid ccu-grid">
+                                <p>Company</p>
+                                <ul class="ftr-ul">
+                                    <li>About</li>
+                                    <li>Jobs</li>
+                                    <li>For the Record</li>
+                                </ul>
+                            </div>
+                            <div class="Communities ccu-grid">
+                                <p>Communities</p>
+                                <ul class="ftr-ul">
+                                    <li>For Artists</li>
+                                    <li>Developers</li>
+                                    <li>Advertising</li>
+                                    <li>Investors</li>
+                                    <li>Vendors</li>
+                                </ul>
+                            </div>
+                            <div class="Useful-Links ccu-grid">
+                                <p>Useful links</p>
+                                <ul class="ftr-ul">
+                                    <li>Support</li>
+                                    <li>Free Mobile App</li>
+                                </ul>
+                            </div>
+                            <div class="null "> </div>
+                            <div class="Social-Link ">
+                                <button><i class="fa-brands fa-instagram"></i></button>
+                                <button><i class="fa-brands fa-twitter"></i></button>
+                                <button><i class="fa-brands fa-facebook"></i></button>
+                            </div>
+                        </div>
+                        <div class="footer-btm-sec">
+                            <div class="bottom-links">
+                                <a href="#">Legal</a>
+                                <a href="#">Safety & Privacy Center</a>
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Cookies</a>
+                                <a href="#">About Ads</a>
+                                <a href="#">Accessibility</a>
+                            </div>
+                            <p>© 2024 Spotify AB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--Music player-->
+        <div class="music-player">
+            <div class="album">
+                <div class="song-poster">
+                    <img src="./Assets/Julai.png" alt="Julai">
+                </div>
+                <div class="song-details">
+                    <div class="song-title">
+                        <a href="#">Chakkani Bike Undi</a>
+                    </div>
+                    <div class="singer-name">
+                        <a href="#"> Tippu</a>
+                        ,
+                        <a href="#">Megha</a>
+                    </div>
+                </div>
+                <div class="save-library">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./Assets/player_icon1.png" class="player-control-icon" alt="Repeat">
+                    <img src="./Assets/player_icon2.png" class="player-control-icon" alt="Previous">
+                    <img src="./Assets/player_icon3.png" class="player-control-icon" style="height: 2rem; opacity: 1;"  alt="Play">
+                    <img src="./Assets/player_icon4.png" class="player-control-icon" alt="Next">
+                    <img src="./Assets/player_icon5.png" class="player-control-icon" alt="Loop">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar-icon" step="2">
+                    <span class="total-time time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./Assets/controls_icon1.png" class="control-icon a" alt="Now Playing View">
+                <img src="./Assets/controls_icon2.png" class="control-icon b" alt="Now Playing View">
+                <i class="fa-solid fa-layer-group control-icon c"></i>
+                <img src="./Assets/controls_icon4.png" class="control-icon d" alt="Now Playing View">
+                <i class="fa-solid fa-volume-low control-icon e "></i>
+                <input type="range" min="0" max="100" class="sound-bar-icon" step="2">
+                <i class="fa-solid fa-display control-icon f"></i>
+                <i class="fa-solid fa-up-right-and-down-left-from-center control-icon g" ></i>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
