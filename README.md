@@ -25,10 +25,6 @@ git clone https://github.com/siddu015/Spotify-Project.git
 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 Special thanks to Spotify for the inspiration behind this project.
