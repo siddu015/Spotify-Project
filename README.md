@@ -1,7 +1,7 @@
 # Spotify Player
 
 This project is a simple music player interface inspired by Spotify's design. It allows users to play, pause, and skip tracks, as well as view album artwork and track information. The player is built using HTML, CSS, and JavaScript.
-[Check out My Spotify Clone](https://regal-horse-9d7d3f.netlify.app/)
+[Check out My Spotify Clone](https://spotifycrypx.netlify.app/)
 
 ## Features
 
